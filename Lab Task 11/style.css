@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #6a859b;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #bbecff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #00443e;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: black;
+}
+
+
+.top-strip {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.top-strip::after {
+  content: " 🚚 Free Shipping on Orders Over $1500! ";
+  display: inline-block;
+  padding-left: 100%;
+  animation: scrollText 15s linear infinite;
+}
+
+@keyframes scrollText {
+  from { transform: translateX(0%); }
+  to { transform: translateX(-100%); }
+}
+
+
+.sort-bar {
+  text-align: center;
+  margin: 15px;
+}
+
+.sort-bar select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+
+#productContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.product-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-weight: bold;
+  color: green;
+}
+
+
+.top-strip {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.cart-bar {
+  text-align: center;
+  background: #4e6679;
+  color: white;
+  padding: 10px;
+}
+
+.search-bar {
+  text-align: center;
+  margin: 15px;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.sort-bar {
+  text-align: center;
+  margin: 10px;
+}
+
+.load-more-container {
+  text-align: center;
+  margin: 30px;
+}
+
+.load-more-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Discount Badge */
+.discount-badge {
+  position: absolute;
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  top: 10px;
+  left: 10px;
+  border-radius: 5px;
+}
+
+.product-card {
+  position: relative;
+}
+
+.add-cart-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+
+.cart-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-content {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close-btn {
+  float: right;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.checkout-page {
+  display: none;
+  text-align: center;
+  padding: 30px;
+  background: white;
+}
+
+.checkout-page input {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+body.dark {
+  background: #121212;
+  color: white;
+}
+
+.auth-bar, .admin-panel {
+  text-align: center;
+  margin: 10px;
+}
+
+.auth-bar input, .admin-panel input {
+  padding: 6px;
+  margin: 5px;
+}
+
+.discount-badge {
+  background: red;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.add-cart-btn { background: green; color: white; padding: 8px; }
+
+.cart-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-content {
+  background: white;
+  padding: 20px;
+  width: 300px;
+}
+
+.checkout-page {
+  display: none;
+  text-align: center;
+  padding: 30px;
+}
+
+

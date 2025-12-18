@@ -1,0 +1,21 @@
+Lab 6 - Report (fill in before submission)
+
+Student name:
+Date:
+
+Objective:
+(briefly state objectives)
+
+Procedure:
+(what you did step-by-step)
+
+Observations:
+(screenshots taken, what the Box Model shows for margin/padding/border)
+
+Analysis & Interpretation:
+(why margins/padding/border affected layout; any fixes you applied)
+
+Conclusion:
+(summary of findings)
+
+Instructor signature:

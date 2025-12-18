@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Online Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Top Strip -->
+<div class="top-strip"></div>
+
+<!-- Header -->
+<header>
+  <h1>My Online Store</h1>
+  <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</header>
+
+<!-- Auth Modal -->
+<div id="authModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeAuth()">&times;</span>
+    <h2>Login / Signup</h2>
+    <input id="username" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+    <div class="auth-buttons">
+      <button onclick="login()">Login</button>
+      <button onclick="signup()">Signup</button>
+    </div>
+    <p id="authStatus"></p>
+  </div>
+</div>
+
+<!-- Cart Bar -->
+<div class="cart-bar" onclick="openCart()">🛒 Cart: <span id="cartCount">0</span></div>
+
+<!-- Search -->
+<div class="search-bar">
+  <input id="searchInput" placeholder="Search..." onkeyup="searchProducts()">
+</div>
+
+<!-- Categories -->
+<nav id="categoryMenu"></nav>
+
+<!-- Sorting -->
+<div class="sort-bar">
+  <select id="sortSelect" onchange="sortProducts()">
+    <option value="default">Default</option>
+    <option value="low-high">Low → High</option>
+    <option value="high-low">High → Low</option>
+    <option value="a-z">A → Z</option>
+    <option value="z-a">Z → A</option>
+  </select>
+</div>
+
+<!-- Products -->
+<div id="productContainer"></div>
+
+<!-- Load More -->
+<div class="load-more-container">
+  <button onclick="loadMore()">Load More</button>
+</div>
+
+<!-- Cart Modal -->
+<div id="cartModal" class="cart-modal">
+  <div class="cart-content">
+    <span class="close-btn" onclick="closeCart()">×</span>
+    <h2>Your Cart</h2>
+    <div id="cartItems"></div>
+    <h3>Total: $<span id="cartTotal">0</span></h3>
+    <button onclick="openCheckout()">Checkout</button>
+  </div>
+</div>
+
+<!-- Checkout Page -->
+<div id="checkoutPage" class="checkout-page">
+  <h2>Payment</h2>
+  <input placeholder="Card Number">
+  <input placeholder="Expiry">
+  <input placeholder="CVV">
+  <h3>Total: $<span id="checkoutTotal">0</span></h3>
+  <button onclick="placeOrder()">Pay Now</button>
+</div>
+
+<!-- Admin Panel -->
+<div class="admin-panel">
+  <h3>Admin Add Product (Demo)</h3>
+  <input id="adminName" placeholder="Name">
+  <input id="adminPrice" placeholder="Price">
+  <input id="adminCategory" placeholder="Category">
+  <button onclick="addAdminProduct()">Add</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

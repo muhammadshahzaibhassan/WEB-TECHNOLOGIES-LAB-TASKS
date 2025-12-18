@@ -1,0 +1,75 @@
+{
+  "products": [
+    { "id": 1, "name": "Smart TV 42 Inch", "price": 399, "category": "Electronics", "image": "images/tv.jpg" },
+    { "id": 2, "name": "Wireless Headphones", "price": 59, "category": "Electronics", "image": "images/headphones.jpg" },
+    { "id": 3, "name": "Laptop 15.6 Inch", "price": 899, "category": "Electronics", "image": "images/laptop.jpg" },
+    { "id": 4, "name": "Bluetooth Speaker", "price": 45, "category": "Electronics", "image": "images/speaker.jpg" },
+    { "id": 5, "name": "Smart Watch", "price": 120, "category": "Electronics", "image": "images/watch.jpg" },
+
+    { "id": 6, "name": "Men's T-Shirt", "price": 15, "category": "Clothing", "image": "images/tshirt.jpg" },
+    { "id": 7, "name": "Women's Jacket", "price": 45, "category": "Clothing", "image": "images/jacket.jpg" },
+    { "id": 8, "name": "Jeans Pants", "price": 35, "category": "Clothing", "image": "images/jeans.jpg" },
+    { "id": 9, "name": "Shoes Sneakers", "price": 60, "category": "Clothing", "image": "images/shoes.jpg" },
+    { "id": 10, "name": "Baseball Cap", "price": 12, "category": "Clothing", "image": "images/cap.jpg" },
+
+    { "id": 11, "name": "Sofa Set", "price": 899, "category": "Home", "image": "images/sofa.jpg" },
+    { "id": 12, "name": "Wall Clock", "price": 25, "category": "Home", "image": "images/clock.jpg" },
+    { "id": 13, "name": "Dining Table", "price": 550, "category": "Home", "image": "images/table.jpg" },
+    { "id": 14, "name": "Bed Mattress", "price": 480, "category": "Home", "image": "images/mattress.jpg" },
+    { "id": 15, "name": "Room Lamp", "price": 30, "category": "Home", "image": "images/lamp.jpg" },
+
+    { "id": 16, "name": "Rice Bag 10kg", "price": 18, "category": "Groceries", "image": "images/rice.jpg" },
+    { "id": 17, "name": "Cooking Oil 5L", "price": 22, "category": "Groceries", "image": "images/oil.jpg" },
+    { "id": 18, "name": "Sugar 5kg", "price": 10, "category": "Groceries", "image": "images/sugar.jpg" },
+    { "id": 19, "name": "Tea Pack", "price": 6, "category": "Groceries", "image": "images/tea.jpg" },
+    { "id": 20, "name": "Milk Pack 1L", "price": 3, "category": "Groceries", "image": "images/milk.jpg" },
+
+    { "id": 21, "name": "Makeup Kit", "price": 75, "category": "Beauty", "image": "images/makeup.jpg" },
+    { "id": 22, "name": "Face Wash", "price": 9, "category": "Beauty", "image": "images/facewash.jpg" },
+    { "id": 23, "name": "Perfume Spray", "price": 40, "category": "Beauty", "image": "images/perfume.jpg" },
+    { "id": 24, "name": "Shampoo 1L", "price": 12, "category": "Beauty", "image": "images/shampoo.jpg" },
+    { "id": 25, "name": "Hair Dryer", "price": 55, "category": "Beauty", "image": "images/dryer.jpg" },
+
+    { "id": 26, "name": "Football", "price": 22, "category": "Sports", "image": "images/football.jpg" },
+    { "id": 27, "name": "Cricket Bat", "price": 65, "category": "Sports", "image": "images/bat.jpg" },
+    { "id": 28, "name": "Tennis Racket", "price": 50, "category": "Sports", "image": "images/racket.jpg" },
+    { "id": 29, "name": "Gym Gloves", "price": 15, "category": "Sports", "image": "images/gloves.jpg" },
+    { "id": 30, "name": "Yoga Mat", "price": 20, "category": "Sports", "image": "images/yogamat.jpg" },
+
+    { "id": 31, "name": "Kids Toy Car", "price": 18, "category": "Toys", "image": "images/toycar.jpg" },
+    { "id": 32, "name": "Doll Set", "price": 25, "category": "Toys", "image": "images/doll.jpg" },
+    { "id": 33, "name": "LEGO Blocks", "price": 40, "category": "Toys", "image": "images/lego.jpg" },
+    { "id": 34, "name": "Remote Helicopter", "price": 60, "category": "Toys", "image": "images/helicopter.jpg" },
+    { "id": 35, "name": "Board Game", "price": 30, "category": "Toys", "image": "images/boardgame.jpg" },
+
+    { "id": 36, "name": "Car Engine Oil", "price": 28, "category": "Automotive", "image": "images/engineoil.jpg" },
+    { "id": 37, "name": "Car Vacuum Cleaner", "price": 45, "category": "Automotive", "image": "images/vacuum.jpg" },
+    { "id": 38, "name": "Bike Helmet", "price": 40, "category": "Automotive", "image": "images/helmet.jpg" },
+    { "id": 39, "name": "Seat Cover Set", "price": 90, "category": "Automotive", "image": "images/seatcover.jpg" },
+    { "id": 40, "name": "Car Phone Holder", "price": 8, "category": "Automotive", "image": "images/holder.jpg" },
+
+    { "id": 41, "name": "Pet Dog Food 5kg", "price": 35, "category": "Pets", "image": "images/dogfood.jpg" },
+    { "id": 42, "name": "Cat Litter Box", "price": 28, "category": "Pets", "image": "images/litterbox.jpg" },
+    { "id": 43, "name": "Fish Tank 20L", "price": 80, "category": "Pets", "image": "images/fishtank.jpg" },
+    { "id": 44, "name": "Parrot Cage", "price": 120, "category": "Pets", "image": "images/parrotcage.jpg" },
+    { "id": 45, "name": "Dog Leash", "price": 15, "category": "Pets", "image": "images/dogleash.jpg" },
+
+    { "id": 46, "name": "Art Paint Set", "price": 22, "category": "Stationery", "image": "images/paintset.jpg" },
+    { "id": 47, "name": "Sketchbook A4", "price": 10, "category": "Stationery", "image": "images/sketchbook.jpg" },
+    { "id": 48, "name": "Ballpoint Pen Pack", "price": 7, "category": "Stationery", "image": "images/pens.jpg" },
+    { "id": 49, "name": "Desk Organizer", "price": 18, "category": "Stationery", "image": "images/organizer.jpg" },
+    { "id": 50, "name": "Sticky Notes 5 Pack", "price": 6, "category": "Stationery", "image": "images/stickynotes.jpg" },
+
+    { "id": 51, "name": "Flashlight", "price": 12, "category": "Outdoor", "image": "images/flashlight.jpg" },
+    { "id": 52, "name": "Camping Tent 2P", "price": 150, "category": "Outdoor", "image": "images/tent.jpg" },
+    { "id": 53, "name": "Cooler Box 30L", "price": 60, "category": "Outdoor", "image": "images/cooler.jpg" },
+    { "id": 54, "name": "Hiking Backpack 40L", "price": 95, "category": "Outdoor", "image": "images/backpack.jpg" },
+    { "id": 55, "name": "Portable Grill", "price": 70, "category": "Outdoor", "image": "images/grill.jpg" },
+
+    { "id": 56, "name": "Printer Ink Cartridge", "price": 22, "category": "Office Electronics", "image": "images/ink.jpg" },
+    { "id": 57, "name": "Wireless Mouse", "price": 25, "category": "Office Electronics", "image": "images/mouse.jpg" },
+    { "id": 58, "name": "HDMI Cable 2m", "price": 12, "category": "Office Electronics", "image": "images/hdmi.jpg" },
+    { "id": 59, "name": "USB Hub 4-Port", "price": 20, "category": "Office Electronics", "image": "images/usbhub.jpg" },
+    { "id": 60, "name": "Desk Lamp LED", "price": 35, "category": "Office Electronics", "image": "images/desklamp.jpg" }
+  ]
+}

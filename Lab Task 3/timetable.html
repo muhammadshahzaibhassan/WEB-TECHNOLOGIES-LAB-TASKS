@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+      caption{
+        font-size: 28pt;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 800;
+      }
+        table{
+            border: 5px solid rgb(19, 19, 19);
+            border-collapse: collapse;
+
+        }
+        th{
+            border: 3px solid rgb(160, 160, 160);
+            height: 90px;
+            width: 140px;
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .course{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        tr{
+          height: 80px;
+        }
+        #tr1{
+            background-color: rgb(0, 104, 22);
+        }
+        .day{
+            background-color: rgb(0, 104, 22);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .break{
+          background-color: rgb(187, 187, 187);
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 500;
+        }
+        
+        .course:hover{
+            background-color:  rgb(110, 255, 243);
+        }
+    </style>
+</head>
+<body>
+    <table border="2">
+        <caption>Timetable Fa-2023 5<sup>th</sup> Semester</caption>
+  <tr id="tr1">
+    <th>Day & Time</th>
+    <th>8:00 - 8:30</th>
+    <th>8:30 - 9:00</th>
+    <th>9:00 - 9:30</th>
+    <th>9:30 - 10:00</th>
+    <th>10:00 - 10:30</th>
+    <th>10:30 - 11:00</th>
+    <th>11:00 - 11:30</th>
+    <th>11:30 - 12:00</th>
+    <th>12:00 - 12:30</th>
+    <th>12:30 - 1:30</th>
+    <th>1:30 - 2:00</th>
+    <th>1:30 - 2:00</th>
+    <th>2:00 - 2:30</th>
+    <th>2:30 - 3:00</th>
+    <th>3:00 - 3:30</th>
+    <th>3:30 - 4:00</th>
+  </tr>
+  <tr id="tr2">
+    <td style="text-align: center;" class="day">Monday</td>
+    <td id="2" style="text-align: center;" class="course"><strong>HCI and Computer Graphics Room 20 NB</strong> Ahsan Ali Haroon</td>
+    <td colspan="1"  style="text-align: center;" class="break">Break</td>
+    <td colspan="3"  style="text-align: center;" class="course"><strong>Software Engineering Room 21 NB</strong><br> M Shakeel</td>
+    <td colspan="2" style="text-align: center;" class="break">Break</td>
+    <td colspan="4" style="text-align: center;" class="course"><strong>Artificial Intelligence Room 20 NB</strong> <br>Zainab Zafar</td>
+    <td colspan="4" style="text-align: center;" class="course"><strong>Digital Image Processing Room 17 NB</strong><br> Aisha Riaz </td>
+    <td colspan="2" style="text-align: center;" class="break">Break</td>
+  </tr>
+  <tr id="tr3">
+    <td style="text-align: center;" class="day">Tuesday</td>
+    <td colspan="4" style="text-align: center;" class="course"><strong>Operating Systems Room 20 NB</strong> <br>Batool Abbas</td>
+    <td colspan="2" style="text-align: center;" class="break">Break</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>Computer Architecture Lab, Lab 22 OB</strong> Hassan Abbas Enver </td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>Computer Architecture Lab, Lab 22 OB</strong> Hassan Abbas Enver </td>
+    <td colspan="4" style="text-align: center;" class="course"><Strong>Web Technologies Room 17 NB</Strong><br> M Yousaf </td>
+  </tr>
+  <tr id="tr4">
+    <td style="text-align: center;" class="day">Wednesday</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>Digital Image Processing Lab Lab 53 OB</strong> Aisha Riaz</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>Digital Image Processing Lab Lab 53 OB</strong> Aisha Riaz</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>HCI and Computer Graphics Lab Lab 78 OB</strong><br> Husnain Ali</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>HCI and Computer Graphics Lab Lab 78 OB</strong><br> Husnain Ali</td>
+    <td style="text-align: center;" class="break">Break</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>Software Engineering Room 23 NB</strong> M Shakeel</td>
+  </tr>
+  <tr id="tr5">
+    <td style="text-align: center;" class="day">Thursday</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>Artificial Intelligence Lab Lab 53 OB</strong><br> Zainab Zafar</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>Artificial Intelligence Lab Lab 53 OB</strong><br> Zainab Zafar</td>
+    <td colspan="2" style="text-align: center;" class="course"><strong>HCI and Computer Graphics Room 18 NB</strong><br> Ahsan Ali Haroon</td>
+    <td colspan="2" style="text-align: center;" class="break">Break</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>Web Technologies Lab Lab 58 OB</strong> <br>M Yousaf</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>Web Technologies Lab Lab 58 OB</strong><br> M Yousaf</td>
+  </tr>
+  <tr id="tr6">
+    <td style="text-align: center;" class="day">Friday</td>
+    <td colspan="4" style="text-align: center;" class="course"><strong>Computer Architecture Room 18 NB</strong><br> Hassan Abbas Enver</td>
+    <td colspan="2" style="text-align: center;" class="break">Break</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>Operating Systems Lab Lab 53 OB</strong><br> Safoora Siddiqa</td>
+    <td colspan="3" style="text-align: center;" class="break">Break</td>
+    <td colspan="3" style="text-align: center;" class="course"><strong>Operating Systems Lab Lab 53 OB</strong> <br>Safoora Siddiqa</td>
+    <td style="text-align: center;" class="break">Break</td>
+  </tr>
+  <tr id="tr7"><td style="text-align: center;" class="day">Saturday</td><td colspan="16" style="text-align: center;" class="course">Holiday</td></tr>
+  <tr id="tr8"><td style="text-align: center;" class="day">Sunday</td><td colspan="16" style="text-align: center;" class="course">Holiday</td></tr>
+</table>
+</body>
+</html>
